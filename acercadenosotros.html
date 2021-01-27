@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>acerca de nosotros</title>
+  <meta charset="utf-8">
+  <meta name="description" content="informate sobre nuestras lineas de contacto">
+  <meta name="keywords" content="CONTACTO,DIRECCION,LOCALIDAD,INFORMACION">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="theme-color" content="#382e2e">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="abkcss/normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amiko&family=Bebas+Neue&family=Oswald&family=Poppins&family=Rasa&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="abkcss/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="abkcss/estilos.css">
+  <link rel="stylesheet" href="abkscss/main.css">
+</head>
+</head>
+
+<body>
+  <header role="banner">
+    <div class="contenedor_phone">
+      <div id="bodymo">
+        <div class="bm" data-file="abkjs/animacion.json"></div>
+      </div>
+
+      <nav class="phone">
+        <div class="movil-btn">
+          <div class="movil-btn_burger"></div>
+        </div>
+    </div>
+    <ul class="phone__elemento">
+      <li class="phone__item"><a class="phone__link" href="index.html">inicio</a></li>
+      <li class="phone__item"><a class="phone__link" href="proximoseventos.html">proximos eventos</a></li>
+      <li class="phone__item"><a class="phone__link" href="noticias.html">noticias</a></li>
+      <li class="phone__item"><a class="phone__link" href="stream.html">stream</a></li>
+      <li class="phone__item"><a class="phone__link" href="acercadenosotros.html">acerca de nosotros</a></li>
+    </ul>
+    </nav>
+  </header>
+
+
+  <div class="nav-grupo">
+    <div class="barra_degr"></div>
+    <nav class="barra-naveg" role="navigation">
+      <img class="barra-naveg__elemento" src="img/logo.svg" alt="Logo de abk">
+
+      <ul class="nav-lista">
+        <li class="nav-lista__elemento"><a class="nav-lista__link" href="index.html">inicio</a></li>
+        <li class="nav-lista__elemento"><a class="nav-lista__link" href="proximoseventos.html">Proximos Eventos</a></li>
+        <li class="nav-lista__elemento"><a class="nav-lista__link" href="noticias.html">Noticias</a></li>
+        <li class="nav-lista__elemento"><a class="nav-lista__link" href="stream.html">Stream</a></li>
+        <li class="nav-lista__elemento"><a class="nav-lista__link" href="acercadenosotros.html">Acerca de Nosotros</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+
+
+  <main class="contenido_nosotros" role="main" <section role="region">
+    <h1>Contactanos</h1>
+    <div class="contenedor_acerca">
+
+      <h2>Comunicate con nosotros</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis
+        aute.</p>
+      <div class="caja_contacto">
+        <div class="contacto_izquierdo">
+          <h3>Envia tus mensajes</h3>
+          <form>
+            <div class="input_rows">
+              <div class="input_group">
+                <label class="label_acerca">Nombre</label>
+                <input type="text" placeholder="Jhon doe" class="input_acerca" required>
+              </div>
+              <div class="input_group">
+                <label class="label_acerca">Telefono</label>
+                <input type="text" placeholder="2409832" class="input_acerca" required>
+              </div>
+
+            </div>
+            <div class="input_rows">
+              <div class="input_group">
+                <label class="label_acerca">Email</label>
+                <input type="text" placeholder="ejemplo.@dominio.com" class="input_acerca" required>
+              </div>
+              <div class="input_group">
+                <label for="asunto" class="label_acerca">Asunto</label>
+                <input list="seleccion" name="asunto" placeholder="Informacion" class="input_acerca" required>
+                <datalist id="seleccion">
+                  <option value="Felicitacion,Queja,Sugerencia">
+                  <option value="Servicio al cliente">
+                  <option value="Inquietud">
+                  <option value="Pedidos">
+                  <option value="Informacion">
+                  <option value="Servicio tecnico">
+                </datalist>
+                </select>
+              </div>
+            </div>
+            <label class="label_acerca">Mensaje</label>
+            <textarea rows="5" placeholder="Envianos tu pensamiento" required></textarea>
+            <label class="puntaje">¿que tal a sido tu experiencia en el sitio?</label>
+            <input class="input_puntaje" type="range" name="puntaje" min="0" max="10">
+            <button class="boton_acerca" type="submit">ENVIAR</button>
+          </form>
+        </div>
+        <div class="contacto_derecho">
+          <h3>Contactanos</h3>
+          <table>
+            <tr>
+              <td>Email</td>
+              <td><a href="https://lorem@outlook.com" target="_blank">lorem@outlook.com</a><i
+                  class="fas fa-mail-bulk"></i></dt>
+              </td>
+            </tr>
+            <tr>
+              <td>Telefono</td>
+              <td>32494-66-000 <i class="fas fa-phone"></i></td>
+            </tr>
+            <tr>
+              <td>Direccion</td>
+              <td>Cra. 70 #164, Medellín, Antioquia <i class="fas fa-map-marker"></i></td>
+            </tr>
+          </table>
+          <img src="img/grafica_form.svg" alt="foto_ingeniero">
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <div class="contenedor_mapa">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2764.3653418181984!2d-75.59076768269031!3d6.228556029213493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429b898be26d3%3A0x18c04d668e86fdf!2sColiseo%20Carlos%20Mauro%20Hoyos!5e0!3m2!1ses!2sco!4v1606962023983!5m2!1ses!2sco"
+      allowfullscreen: "" ; aria-hidden: false; tabindex: 0; style: 0;></iframe>
+
+    <p>Cra. 70 #164, Medellín, Antioquia <i class="fas fa-map-marker"></i></p>
+  </div>
+
+  <div class="contenedor_lineat">
+    <div class="lineatiempo">
+      <ul>
+        <li>
+          <div class="contenido_lineat">
+            <h3 class="fecha_ct"> 2025</h3>
+            <h2>Nuestra meta como compañia de contenido</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus
+              aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          </div>
+        </li>
+        <li>
+          <div class="contenido_lineat">
+            <h3 class="fecha_ct"> 2024</h3>
+            <h2>Futuros y metas</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus
+              aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          </div>
+        </li>
+        <li>
+          <div class="contenido_lineat">
+            <h3 class="fecha_ct"> 2023</h3>
+            <h2>Retos previstos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus
+              aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          </div>
+        </li>
+        <li>
+          <div class="contenido_lineat">
+            <h3 class="fecha_ct">2022</h3>
+            <h2>De la imaginacion a la realidad</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus
+              aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          </div>
+        </li>
+        <li>
+          <div class="contenido_lineat">
+            <h3 class="fecha_ct"> 2021</h3>
+            <h2>Los inicios de <span class="letras_rojas">ABK<span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus
+              aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          </div>
+        </li>
+        <li>
+          <div class="contenido_lineat">
+            <h3 class="fecha_ct">2020</h3>
+            <h2>Plasmando un sueño</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus
+              aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="contenedorfo clearfix">
+
+      <div id="nuestros-convenios" class="footer-informacion">
+        <h3>Sobre <span class="letras_rojas">ABK</span></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel
+              perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          <div><a href='https://www.freepik.es/vectors/internet'>Vector de Internet creado por vectorjuice -
+              www.freepik.es</a></div>
+        </p>
+      </div>
+
+      <div class="ultimos ko">
+        <h3>ultimos <span class="letras_rojas">K.O</span></h3>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</li>
+        </ul>
+      </div>
+
+      <div class="menu">
+        <h3>Redes <span class="letras_rojas">sociales</span></h3>
+        <nav class="redes-sociales">
+          <a href="https://www.facebook.com/" target=" _blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/" target=" _blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://pinterest.com/" target=" _blank"><i class="fab fa-pinterest-p"></i></a>
+          <a href="https://www.youtube.com/" target=" _blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/" target=" _blank"><i class="fab fa-instagram"></i></a>
+        </nav>
+      </div>
+    </div>
+    <p class="copyright">Todos los derechos reservados A BIG KNOCKOUT&COPY; 2020-2021.</p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/e4cfebf77c.js" crossorigin="anonymous"></script>
+  <script src="abkjs/jquery-3.5.1.min.js"></script>
+  <script src="abkjs/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"
+    integrity="sha512-0bCDSnaX8FOD9Mq8WbHcDwshXwCB5V4EP+UBu87WQgga2b7lAsuEbaSmIZjH/XEmNhJuhrPbFHemre5HZwrk9w=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+  </script>
+  <script src="abkjs/jquery.overlayScrollbars.min.js"></script>
+  <script src="abkjs/main.js"></script>
+
+</body>
+
+</html>

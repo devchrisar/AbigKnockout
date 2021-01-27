@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stream</title>
+  <meta charset="utf-8">
+  <meta name="description" content="vive la mejor experiencia del boxeo a travez de nuestros canales en vivo">
+  <meta name="keywords" content="STREAM,stream boxeo,boxeo en vivo,boxeo en directo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="theme-color" content="#382e2e">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="abkcss/normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amiko&family=Bebas+Neue&family=Oswald&family=Poppins&family=Rasa&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="abkcss/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="abkcss/estilos.css">
+  <link rel="stylesheet" href="abkscss/main.css">
+</head>
+</head>
+
+<body>
+  <header role="banner">
+    <div class="contenedor_phone">
+      <div id="bodymo">
+        <div class="bm" data-file="abkjs/animacion.json"></div>
+      </div>
+
+      <nav class="phone">
+        <div class="movil-btn">
+          <div class="movil-btn_burger"></div>
+        </div>
+    </div>
+    <ul class="phone__elemento">
+      <li class="phone__item"><a class="phone__link" href="index.html">inicio</a></li>
+      <li class="phone__item"><a class="phone__link" href="proximoseventos.html">proximos eventos</a></li>
+      <li class="phone__item"><a class="phone__link" href="noticias.html">noticias</a></li>
+      <li class="phone__item"><a class="phone__link" href="stream.html">stream</a></li>
+      <li class="phone__item"><a class="phone__link" href="acercadenosotros.html">acerca de nosotros</a></li>
+    </ul>
+    </nav>
+  </header>
+
+
+
+  <div class="nav-grupo">
+    <div class="barra_degr"></div>
+    <nav class="barra-naveg" role="navigation">
+      <img class="barra-naveg__elemento" src="img/logo.svg" alt="Logo de abk">
+
+      <ul class="nav-lista">
+        <li class="nav-lista__elemento"><a class="nav-lista__link" href="index.html">inicio</a></li>
+        <li class="nav-lista__elemento"><a class="nav-lista__link" href="proximoseventos.html">Proximos Eventos</a></li>
+        <li class="nav-lista__elemento"><a class="nav-lista__link" href="noticias.html">Noticias</a></li>
+        <li class="nav-lista__elemento"><a class="nav-lista__link" href="stream.html">Stream</a></li>
+        <li class="nav-lista__elemento"><a class="nav-lista__link" href="acercadenosotros.html">Acerca de Nosotros</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+
+
+  <svg class="svg_stream" viewbox="0 0 1500 500">
+    <text x="23%" y="50%" fill="transparent" text-anchore="middle">Vive la Emocion</text>
+  </svg>
+
+  <div class="grupo_stream">
+    <div class="contenedor_stream">
+      <h2>hola! elige tu opcion de pago e introduce tus datos :)</h2>
+      <form action="#" method="post" class="registro">
+        <fieldset>
+          <div class="tarjeta_field">
+            <fieldset>
+              <label> tarjeta:</label>
+              <select class="tarjeta" name="tarjeta" required>
+                <option value="mastercard">Mastercard</option>
+                <option value="visa">Visa</option>
+                <option value="american express">American Express</option>
+                <option value="jcb">JCB</option>
+                <option value="diners Club">Diners Club</option>
+                <option value="maestro">Maestro</option>
+              </select>
+            </fieldset>
+          </div>
+          <div class="form_div">
+            <input type="text" name="Numero tarjeta" id="numero tarjeta" placeholder="digite su numero de tarjeta"
+              class="form_input" autocomplete="off" maxlength="17" minlength="12" required>
+            <label for="numero tarjeta" class="form_label">Numero de la tarjeta:</label>
+          </div>
+          <div class="form_div">
+            <input type="month" name="f.v" id="fecha vencimiento"
+              placeholder="introduce la fecha de vencimiento de la tarjeta" class="form_input" required>
+            <label for="fecha vencimiento" class="form_label">Fecha de vencimiento</label>
+          </div>
+          <div class="form_div">
+            <input type="password" name="cvv" id="cvv" placeholder="cvv" autocomplete="off" maxlength="4" minlength="4"
+              class="form_input" required>
+            <label for="cvv" class="form_label">Codigo de seguridad:</label>
+          </div>
+
+          <div class="form_div">
+            <input type="text" name="nombre" id="nombre" placeholder="digite su nombre" autocomplete="off"
+              maxlength="32" class="form_input" required>
+            <label for="nombre" class="form_label">nombre del titular:</label>
+          </div>
+          <div class="form_div">
+            <input type="text" name="dni" id="dni" placeholder="digite su documento" autocomplete="off" maxlength="13"
+              minlength="7" class="form_input" required>
+            <label for="dni" class="form_label">documento de identificacion:</label>
+          </div>
+          <div>
+            <fieldset>
+              <label> metodo electronico:</label>
+              <select class="pago electronico" name="pago electronico" required>
+                <option value="No gracias">No gracias</option>
+                <option value="paypal">Paypal</option>
+                <option value="payvalida">Payvalida</option>
+                <option value="movii">Movii</option>
+                <option value="brubank">Brubank</option>
+              </select>
+            </fieldset>
+          </div>
+
+          <p><strong>o continua para realizar tu pago a travez de corresponsales de EFECTY,BALOTO,GANA!! te
+              esperamos</strong></p>
+
+          <label> Acepto los terminos y condiciones</label>
+          <input type="checkbox">
+        </fieldset>
+        <input class="botonregistro" type="submit" value="REGISTRARME">
+      </form>
+    </div>
+
+    <div class="contenedor_stream2">
+      <form action="#" method="post" class="box">
+        <h2>Iniciar Sesion</h2>
+        <input type="text" name="" placeholder="Usuario" required>
+        <input type="password" name="" placeholder="Contraseña" required>
+        <input type="image" src="img/login W.png" value="login">
+      </form>
+    </div>
+  </div>
+
+  <div class="contador parallax">
+    <div class="contenedorpa">
+      <ul class="resumen-evento clearfix">
+        <li>
+          <p class="numero">26200</p>Miembros
+        </li>
+        <li>
+          <p class="numero">+1000</p>videos
+        </li>
+        <li>
+          <p class="numero">20</p>Servidores
+        </li>
+        <li>
+          <p class="numero">9</p>Estrenos
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+  <footer class="site-footer">
+    <div class="contenedorfo clearfix">
+
+      <div id="nuestros-convenios" class="footer-informacion">
+        <h3>Sobre <span class="letras_rojas">ABK</span></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel
+              perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          <div><a href='https://www.freepik.es/vectors/internet'>Vector de Internet creado por vectorjuice -
+              www.freepik.es</a></div>
+        </p>
+      </div>
+
+      <div class="ultimos ko">
+        <h3>ultimos <span class="letras_rojas">K.O</span></h3>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</li>
+        </ul>
+      </div>
+
+      <div class="menu">
+        <h3>Redes <span class="letras_rojas">sociales</span></h3>
+        <nav class="redes-sociales">
+          <a href="https://www.facebook.com/" target=" _blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/" target=" _blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://pinterest.com/" target=" _blank"><i class="fab fa-pinterest-p"></i></a>
+          <a href="https://www.youtube.com/" target=" _blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/" target=" _blank"><i class="fab fa-instagram"></i></a>
+        </nav>
+      </div>
+    </div>
+    <p class="copyright">Todos los derechos reservados A BIG KNOCKOUT&COPY; 2020-2021.</p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/e4cfebf77c.js" crossorigin="anonymous"></script>
+  <script src="abkjs/jquery-3.5.1.min.js"></script>
+  <script src="abkjs/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"
+    integrity="sha512-0bCDSnaX8FOD9Mq8WbHcDwshXwCB5V4EP+UBu87WQgga2b7lAsuEbaSmIZjH/XEmNhJuhrPbFHemre5HZwrk9w=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+  </script>
+  <script src="abkjs/jquery.overlayScrollbars.min.js"></script>
+  <script src="abkjs/main.js"></script>
+</body>
+
+</html>
