@@ -10,6 +10,15 @@
     display: none;
   }
 
+  .contenedor_phone {
+    padding-bottom: 5px;
+  }
+
+  body p,
+  .barraroja dd {
+    padding: 30px;
+  }
+
   #bodymo {
     display: flex;
     width: 200px;
@@ -20,6 +29,9 @@
     position: relative;
   }
 
+  .movil-btn {
+    width: 0px;
+  }
   .movil-btn_burger {
     position: absolute;
     cursor: pointer;
@@ -97,7 +109,7 @@
     display: grid;
     grid-column: 1;
     align-items: center;
-    width: 360px;
+    width: 320px;
     height: 300px;
     overflow: hidden;
     margin-top: auto;
@@ -217,6 +229,10 @@
   /*----------------noticias fin-------------*/
 
   /*----------------stream-------------*/
+  .svg_stream {
+    transform: scale(150%);
+  }
+
   .grupo_stream {
     display: grid;
     grid-column: 1;
@@ -286,6 +302,15 @@
 @include media(">phone", "<=HDphone") {
   .nav-grupo {
     display: none;
+  }
+
+  .contenedor_phone {
+    padding-bottom: 5px;
+  }
+
+  body p,
+  .barraroja dd {
+    padding: 30px;
   }
 
   #bodymo {
@@ -383,9 +408,10 @@
 
   .svganim_text p {
     font-size: 20px;
-    white-space: wrap;
-    width: 100vw;
-    height: 200px;
+    white-space: no-wrap;
+    width: 360px;
+    height: 300px;
+    padding: 5px;
   }
 
   @keyframes tipeo {
@@ -475,6 +501,12 @@
   /*----------------noticias fin-------------*/
 
   /*----------------stream-------------*/
+
+  .svg_stream {
+    transform: scale(100%);
+    width: 100vw;
+  }
+
   grupo_stream {
     display: grid;
     grid-column: 1;
@@ -535,6 +567,15 @@
   /*----------------index-------------*/
   .nav-grupo {
     display: none;
+  }
+
+  .contenedor_phone {
+    padding-bottom: 5px;
+  }
+
+  body p,
+  .barraroja dd {
+    padding: 30px;
   }
 
   #bodymo {
@@ -633,8 +674,9 @@
   .svganim_text p {
     font-size: 30px;
     white-space: wrap;
-    width: 100%;
+    width: 410px;
     height: 400px;
+    padding: 5px;
   }
 
   @keyframes tipeo {

@@ -1335,6 +1335,13 @@ footer p.copyright {
   .nav-grupo {
     display: none;
   }
+  .contenedor_phone {
+    padding-bottom: 5px;
+  }
+  body p,
+  .barraroja dd {
+    padding: 30px;
+  }
   #bodymo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1344,6 +1351,9 @@ footer p.copyright {
   }
   .phone {
     position: relative;
+  }
+  .movil-btn {
+    width: 0px;
   }
   .movil-btn_burger {
     position: absolute;
@@ -1427,7 +1437,7 @@ footer p.copyright {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 360px;
+    width: 320px;
     height: 300px;
     overflow: hidden;
     margin-top: auto;
@@ -1562,6 +1572,10 @@ footer p.copyright {
   }
   /*----------------noticias fin-------------*/
   /*----------------stream-------------*/
+  .svg_stream {
+    -webkit-transform: scale(150%);
+            transform: scale(150%);
+  }
   .grupo_stream {
     display: -ms-grid;
     display: grid;
@@ -1641,6 +1655,13 @@ footer p.copyright {
 @media (min-width: 321px) and (max-width: 480px) {
   .nav-grupo {
     display: none;
+  }
+  .contenedor_phone {
+    padding-bottom: 5px;
+  }
+  body p,
+  .barraroja dd {
+    padding: 30px;
   }
   #bodymo {
     display: -webkit-box;
@@ -1741,9 +1762,10 @@ footer p.copyright {
   }
   .svganim_text p {
     font-size: 20px;
-    white-space: wrap;
-    width: 100vw;
-    height: 200px;
+    white-space: no-wrap;
+    width: 360px;
+    height: 300px;
+    padding: 5px;
   }
   @-webkit-keyframes tipeo {
     from {
@@ -1849,6 +1871,11 @@ footer p.copyright {
   }
   /*----------------noticias fin-------------*/
   /*----------------stream-------------*/
+  .svg_stream {
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
+    width: 100vw;
+  }
   grupo_stream {
     display: -ms-grid;
     display: grid;
@@ -1914,6 +1941,13 @@ footer p.copyright {
   /*----------------index-------------*/
   .nav-grupo {
     display: none;
+  }
+  .contenedor_phone {
+    padding-bottom: 5px;
+  }
+  body p,
+  .barraroja dd {
+    padding: 30px;
   }
   #bodymo {
     display: -webkit-box;
@@ -2015,8 +2049,9 @@ footer p.copyright {
   .svganim_text p {
     font-size: 30px;
     white-space: wrap;
-    width: 100%;
+    width: 410px;
     height: 400px;
+    padding: 5px;
   }
   @-webkit-keyframes tipeo {
     from {
