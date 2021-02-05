@@ -216,7 +216,7 @@
 
 .svganim_text p {
   border-right: solid 5px rgba(255, 255, 255, 0.75);
-  white-space: wrap;
+  white-space: pre-line;
   overflow: hidden;
   font-family: "Source Code Pro", monospace;
   font-size: 28px;
@@ -1439,14 +1439,12 @@ footer p.copyright {
             align-items: center;
     width: 320px;
     height: 300px;
-    overflow: hidden;
     margin-top: auto;
   }
   .svganim_text p {
-    font-size: 20px;
-    white-space: wrap;
+    font-size: 17px;
     width: 100vw;
-    height: 200px;
+    height: 245px;
   }
   @-webkit-keyframes tipeo {
     from {
