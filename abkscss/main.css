@@ -1570,9 +1570,13 @@ footer p.copyright {
   }
   /*----------------noticias fin-------------*/
   /*----------------stream-------------*/
+  .svg-div_stream {
+    width: 100vw;
+  }
   .svg_stream {
-    -webkit-transform: scale(150%);
-            transform: scale(150%);
+    position: absolute;
+    -webkit-transform: scale(1, 3);
+            transform: scale(1, 3);
   }
   .grupo_stream {
     display: -ms-grid;
@@ -1590,6 +1594,9 @@ footer p.copyright {
     display: grid;
     padding-top: 50px;
     width: 100vw;
+  }
+  .contenedor_stream2 {
+    width: 233px;
   }
   .box {
     display: -ms-grid;
