@@ -1033,7 +1033,7 @@ p.numero {
 }
 
 .contacto_derecho {
-  background: #ff99ac;
+  background: #ff00ff;
   color: #fff;
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
@@ -1088,11 +1088,11 @@ textarea {
 .label_acerca {
   margin-bottom: 6px;
   display: block;
-  color: #ff99ac;
+  color: #ff00ff;
 }
 
 .boton_acerca {
-  background: #ff99ac;
+  background: #ff00ff;
   width: 100px;
   border: none;
   outline: none;
@@ -1100,12 +1100,12 @@ textarea {
   height: 35px;
   border-radius: 30px;
   margin-top: 20px;
-  -webkit-box-shadow: 0 5px 15px 0 #c800b5;
-          box-shadow: 0 5px 15px 0 #c800b5;
+  -webkit-box-shadow: 0 5px 25px 0 #ff1476;
+          box-shadow: 0 5px 25px 0 #ff1476;
 }
 
 .boton_acerca:hover {
-  background: #ff00ff;
+  background: #f90067;
   color: #111;
   -webkit-box-shadow: 0 0 50px #ff00ff;
           box-shadow: 0 0 50px #ff00ff;
@@ -1114,7 +1114,7 @@ textarea {
 }
 
 .contacto_izquierdo h3 {
-  color: #ff99ac;
+  color: #ff00ff;
   font-weight: 600;
   margin-bottom: 30px;
 }
@@ -1209,7 +1209,7 @@ textarea {
 
 .lineatiempo ul li {
   padding: 20px;
-  background-color: #ff99ac;
+  background-color: #ff00ff;
   color: white;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -2385,7 +2385,7 @@ footer p.copyright {
     top: -30px;
   }
   .lineatiempo ul li:hover::before {
-    background-color: fuchsia;
+    background-color: red;
   }
   /*----------------acerca noso fin-------------*/
 }
@@ -2529,7 +2529,7 @@ footer p.copyright {
     top: -30px;
   }
   .lineatiempo ul li:hover::before {
-    background-color: fuchsia;
+    background-color: red;
   }
   /*----------------acerca noso fin-------------*/
 }
@@ -2670,7 +2670,7 @@ footer p.copyright {
     top: -30px;
   }
   .lineatiempo ul li:hover::before {
-    background-color: fuchsia;
+    background-color: red;
   }
   /*----------------acerca noso fin-------------*/
 }
@@ -2815,7 +2815,7 @@ footer p.copyright {
     top: -30px;
   }
   .lineatiempo ul li:hover::before {
-    background-color: fuchsia;
+    background-color: red;
   }
   /*----------------acerca noso fin-------------*/
 }
