@@ -984,7 +984,7 @@ div.contador {
 }
 
 div.contador::before {
-  background-image: url(../img/paralelo.jpg);
+  background-image: url(../img/paralelo.webp);
   content: "";
 }
 
