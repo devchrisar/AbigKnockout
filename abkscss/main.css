@@ -1252,6 +1252,17 @@ textarea {
 
 /*LINEA DE TIEMPO*/
 /*noticias*/
+.contenido--noticias h1 {
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.news_titu {
+  font-size: 34px;
+}
+
 .relacionados {
   display: -webkit-box;
   display: -ms-flexbox;
