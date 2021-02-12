@@ -404,6 +404,9 @@
   box-sizing: border-box;
 
   .contenidocentral_grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: #fff;
     border-radius: 20px;
     overflow: hidden;
