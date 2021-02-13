@@ -367,8 +367,11 @@
 
 /*titulares*/
 
-.vinculo_titu {
-  color: #fcb5b5;
+.vinculo_titu,
+.vinculo_titu-p {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
   text-decoration: none;
 }
 

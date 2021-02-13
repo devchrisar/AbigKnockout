@@ -476,8 +476,15 @@
 
 /*degradado rojo*/
 /*titulares*/
-.vinculo_titu {
-  color: #fcb5b5;
+.vinculo_titu,
+.vinculo_titu-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 25px;
   text-decoration: none;
 }
 
@@ -1363,6 +1370,9 @@ footer p.copyright {
   .barraroja dd {
     padding: 30px;
   }
+  body h2 {
+    padding: 20px;
+  }
   #bodymo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1689,6 +1699,9 @@ footer p.copyright {
   .barraroja dd {
     padding: 30px;
   }
+  body h2 {
+    padding: 20px;
+  }
   #bodymo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1975,6 +1988,9 @@ footer p.copyright {
   .barraroja dd {
     padding: 30px;
   }
+  body h2 {
+    padding: 20px;
+  }
   #bodymo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2217,6 +2233,10 @@ footer p.copyright {
   .contenedor_mapa iframe {
     width: 100vw;
   }
+  .contenedor_acerca {
+    width: 100vw;
+    margin: 50px auto;
+  }
   /*----------------acerca noso fin-------------*/
 }
 
@@ -2232,6 +2252,13 @@ footer p.copyright {
   }
   body.os-host > .os-padding > .os-viewport > .os-content {
     height: auto !important;
+  }
+  body p,
+  .barraroja dd {
+    padding: 25px;
+  }
+  body h2 {
+    padding: 20px;
   }
   .nav-lista {
     list-style: none;
@@ -2424,6 +2451,13 @@ footer p.copyright {
   body.os-host > .os-padding > .os-viewport > .os-content {
     height: auto !important;
   }
+  body p,
+  .barraroja dd {
+    padding: 30px;
+  }
+  body h2 {
+    padding: 22px;
+  }
   .nav-lista {
     list-style: none;
     display: -ms-grid;
@@ -2568,6 +2602,13 @@ footer p.copyright {
   body.os-host > .os-padding > .os-viewport > .os-content {
     height: auto !important;
   }
+  body p,
+  .barraroja dd {
+    padding: 10px;
+  }
+  body h2 {
+    padding: 20px;
+  }
   .nav-lista {
     list-style: none;
     display: -ms-grid;
@@ -2708,6 +2749,13 @@ footer p.copyright {
   }
   body.os-host > .os-padding > .os-viewport > .os-content {
     height: auto !important;
+  }
+  body p,
+  .barraroja dd {
+    padding: 5px;
+  }
+  body h2 {
+    padding: 20px;
   }
   .nav-lista {
     list-style: none;
