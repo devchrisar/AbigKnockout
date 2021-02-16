@@ -1248,6 +1248,7 @@ textarea {
   font-size: 16px;
   line-height: 30px;
   font-weight: 300;
+  word-wrap: break-word;
 }
 
 .contenido_lineat .fecha_ct {
@@ -1571,6 +1572,9 @@ footer p.copyright {
     color: #ff0096;
     text-transform: uppercase;
   }
+  .descripcion_evento {
+    word-wrap: break-word;
+  }
   /*----------------proximos eventos fin-------------*/
   /*----------------noticias-------------*/
   .relacionados {
@@ -1879,6 +1883,9 @@ footer p.copyright {
   }
   .eventos .eventos_izquierda .eventos_fecha {
     padding: 10px 0;
+  }
+  .descripcion_evento {
+    word-wrap: break-word;
   }
   /*----------------proximos eventos fin-------------*/
   /*----------------noticias-------------*/

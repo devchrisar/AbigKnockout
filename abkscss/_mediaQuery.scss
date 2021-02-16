@@ -211,6 +211,10 @@
     color: #ff0096;
     text-transform: uppercase;
   }
+
+  .descripcion_evento {
+    word-wrap: break-word;
+  }
   /*----------------proximos eventos fin-------------*/
 
   /*----------------noticias-------------*/
@@ -493,6 +497,10 @@
 
   .eventos .eventos_izquierda .eventos_fecha {
     padding: 10px 0;
+  }
+
+  .descripcion_evento {
+    word-wrap: break-word;
   }
   /*----------------proximos eventos fin-------------*/
 
