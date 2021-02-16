@@ -476,8 +476,15 @@
 
 /*degradado rojo*/
 /*titulares*/
-.vinculo_titu {
-  color: #fcb5b5;
+.vinculo_titu,
+.vinculo_titu-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 25px;
   text-decoration: none;
 }
 
@@ -515,6 +522,16 @@
 }
 
 .contenedorcentral_grid .contenidocentral_grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background: #fff;
   border-radius: 20px;
   overflow: hidden;
@@ -984,7 +1001,7 @@ div.contador {
 }
 
 div.contador::before {
-  background-image: url(../img/paralelo.jpg);
+  background-image: url(../img/paralelo.webp);
   content: "";
 }
 
@@ -1231,6 +1248,7 @@ textarea {
   font-size: 16px;
   line-height: 30px;
   font-weight: 300;
+  word-wrap: break-word;
 }
 
 .contenido_lineat .fecha_ct {
@@ -1242,6 +1260,17 @@ textarea {
 
 /*LINEA DE TIEMPO*/
 /*noticias*/
+.contenido--noticias h1 {
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.news_titu {
+  font-size: 34px;
+}
+
 .relacionados {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1341,6 +1370,9 @@ footer p.copyright {
   body p,
   .barraroja dd {
     padding: 30px;
+  }
+  body h2 {
+    padding: 20px;
   }
   #bodymo {
     display: -webkit-box;
@@ -1540,6 +1572,9 @@ footer p.copyright {
     color: #ff0096;
     text-transform: uppercase;
   }
+  .descripcion_evento {
+    word-wrap: break-word;
+  }
   /*----------------proximos eventos fin-------------*/
   /*----------------noticias-------------*/
   .relacionados {
@@ -1667,6 +1702,9 @@ footer p.copyright {
   body p,
   .barraroja dd {
     padding: 30px;
+  }
+  body h2 {
+    padding: 20px;
   }
   #bodymo {
     display: -webkit-box;
@@ -1846,6 +1884,9 @@ footer p.copyright {
   .eventos .eventos_izquierda .eventos_fecha {
     padding: 10px 0;
   }
+  .descripcion_evento {
+    word-wrap: break-word;
+  }
   /*----------------proximos eventos fin-------------*/
   /*----------------noticias-------------*/
   .relacionados {
@@ -1953,6 +1994,9 @@ footer p.copyright {
   body p,
   .barraroja dd {
     padding: 30px;
+  }
+  body h2 {
+    padding: 20px;
   }
   #bodymo {
     display: -webkit-box;
@@ -2196,6 +2240,10 @@ footer p.copyright {
   .contenedor_mapa iframe {
     width: 100vw;
   }
+  .contenedor_acerca {
+    width: 100vw;
+    margin: 50px auto;
+  }
   /*----------------acerca noso fin-------------*/
 }
 
@@ -2211,6 +2259,13 @@ footer p.copyright {
   }
   body.os-host > .os-padding > .os-viewport > .os-content {
     height: auto !important;
+  }
+  body p,
+  .barraroja dd {
+    padding: 25px;
+  }
+  body h2 {
+    padding: 20px;
   }
   .nav-lista {
     list-style: none;
@@ -2237,7 +2292,7 @@ footer p.copyright {
     float: left;
   }
   nav.redes-sociales .fab {
-    color: rgba(199, 0, 139, 0.6);
+    color: white;
     -webkit-transition: 3s;
     transition: 3s;
     padding: 0 5px;
@@ -2403,6 +2458,13 @@ footer p.copyright {
   body.os-host > .os-padding > .os-viewport > .os-content {
     height: auto !important;
   }
+  body p,
+  .barraroja dd {
+    padding: 30px;
+  }
+  body h2 {
+    padding: 22px;
+  }
   .nav-lista {
     list-style: none;
     display: -ms-grid;
@@ -2425,7 +2487,7 @@ footer p.copyright {
     float: left;
   }
   nav.redes-sociales .fab {
-    color: rgba(199, 0, 139, 0.6);
+    color: white;
     -webkit-transition: 3s;
     transition: 3s;
     padding: 0 5px;
@@ -2547,6 +2609,13 @@ footer p.copyright {
   body.os-host > .os-padding > .os-viewport > .os-content {
     height: auto !important;
   }
+  body p,
+  .barraroja dd {
+    padding: 10px;
+  }
+  body h2 {
+    padding: 20px;
+  }
   .nav-lista {
     list-style: none;
     display: -ms-grid;
@@ -2569,7 +2638,7 @@ footer p.copyright {
     float: left;
   }
   nav.redes-sociales .fab {
-    color: rgba(199, 0, 139, 0.6);
+    color: white;
     -webkit-transition: 3s;
     transition: 3s;
     padding: 0 5px;
@@ -2688,6 +2757,13 @@ footer p.copyright {
   body.os-host > .os-padding > .os-viewport > .os-content {
     height: auto !important;
   }
+  body p,
+  .barraroja dd {
+    padding: 5px;
+  }
+  body h2 {
+    padding: 20px;
+  }
   .nav-lista {
     list-style: none;
     display: -ms-grid;
@@ -2710,7 +2786,7 @@ footer p.copyright {
     float: left;
   }
   nav.redes-sociales .fab {
-    color: rgba(199, 0, 139, 0.6);
+    color: white;
     -webkit-transition: 3s;
     transition: 3s;
     padding: 0 5px;

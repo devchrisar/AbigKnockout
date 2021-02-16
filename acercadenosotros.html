@@ -7,7 +7,7 @@
   <title>acerca de nosotros</title>
   <meta charset="utf-8">
   <meta name="description" content="informate sobre nuestras lineas de contacto">
-  <meta name="keywords" content="CONTACTO,DIRECCION,LOCALIDAD,INFORMACION">
+  <meta name="keywords" content="CONTACTO,DIRECCIÓN,LOCALIDAD,INFORMACIÓN">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -71,70 +71,80 @@
 
 
   <main class="contenido_nosotros" role="main" <section role="region">
-    <h1>Contactanos</h1>
+    <h1>Contáctenos</h1>
     <div class="contenedor_acerca">
 
       <h2>Comunicate con nosotros</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis
-        aute.</p>
+      <p>En ABK disponemos de diversos canales para que puedas comunicarte con nosotros de manera directa, clara y
+        sencilla.Si deseas radicar una queja, reclamo o Felicitación siéntese seguro de hacerlo por medio del presente
+        formulario.</p>
       <div class="caja_contacto">
         <div class="contacto_izquierdo">
-          <h3>Envia tus mensajes</h3>
+          <h3>Enviá tus mensajes</h3>
           <form>
             <div class="input_rows">
               <div class="input_group">
-                <label class="label_acerca">Nombre</label>
-                <input type="text" placeholder="Jhon doe" class="input_acerca" required>
+                <label class="label_acerca">
+                  Nombre
+                  <input type="text" placeholder="John doe" class="input_acerca" required>
+                </label>
               </div>
               <div class="input_group">
-                <label class="label_acerca">Telefono</label>
-                <input type="text" placeholder="2409832" class="input_acerca" required>
+                <label class="label_acerca">
+                  Teléfono
+                  <input type="text" placeholder="2409832" class="input_acerca" required>
+                </label>
               </div>
 
             </div>
             <div class="input_rows">
               <div class="input_group">
-                <label class="label_acerca">Email</label>
-                <input type="text" placeholder="ejemplo.@dominio.com" class="input_acerca" required>
+                <label class="label_acerca">
+                  Email
+                  <input type="text" placeholder="ejemplo.@dominio.com" class="input_acerca" required>
+                </label>
               </div>
               <div class="input_group">
-                <label for="asunto" class="label_acerca">Asunto</label>
-                <input list="seleccion" name="asunto" placeholder="Informacion" class="input_acerca" required>
-                <datalist id="seleccion">
-                  <option value="Felicitacion,Queja,Sugerencia">
-                  <option value="Servicio al cliente">
-                  <option value="Inquietud">
-                  <option value="Pedidos">
-                  <option value="Informacion">
-                  <option value="Servicio tecnico">
-                </datalist>
-                </select>
+                <label for="asunto" class="label_acerca">Asunto
+
+                  <input list="selección" name="asunto" placeholder="Información" class="input_acerca" required>
+                  <datalist id="seleccion">
+                    <option value="Felicitación,Queja,Sugerencia">
+                    <option value="Servicio al cliente">
+                    <option value="Inquietud">
+                    <option value="Pedidos">
+                    <option value="Información">
+                    <option value="Servicio técnico">
+                  </datalist>
+                </label>
               </div>
             </div>
-            <label class="label_acerca">Mensaje</label>
-            <textarea rows="5" placeholder="Envianos tu pensamiento" required></textarea>
-            <label class="puntaje">¿que tal a sido tu experiencia en el sitio?</label>
-            <input class="input_puntaje" type="range" name="puntaje" min="0" max="10">
+            <label class="label_acerca">
+              Mensaje
+              <textarea rows="5" placeholder="Envianos tu pensamiento" required></textarea>
+            </label>
+            <label for="input_puntaje">¿que tal a sido tu experiencia en el sitio?</label>
+            <label class="puntaje">
+              <input class="input_puntaje" type="range" name="puntaje" min="0" max="10">
+            </label>
             <button class="boton_acerca" type="submit">ENVIAR</button>
           </form>
         </div>
         <div class="contacto_derecho">
-          <h3>Contactanos</h3>
+          <h3>Contáctenos</h3>
           <table>
             <tr>
               <td>Email</td>
-              <td><a href="https://lorem@outlook.com" target="_blank">lorem@outlook.com</a><i
+              <td><a href="https://lorem@outlook.com" target="_blank" rel="noreferrer">lorem@outlook.com</a><i
                   class="fas fa-mail-bulk"></i></dt>
               </td>
             </tr>
             <tr>
-              <td>Telefono</td>
+              <td>Teléfono</td>
               <td>32494-66-000 <i class="fas fa-phone"></i></td>
             </tr>
             <tr>
-              <td>Direccion</td>
+              <td>Dirección</td>
               <td>Cra. 70 #164, Medellín, Antioquia <i class="fas fa-map-marker"></i></td>
             </tr>
           </table>
@@ -147,9 +157,9 @@
   </main>
 
   <div class="contenedor_mapa">
-    <iframe
+    <iframe title="mapa: lugar de la empresa"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2764.3653418181984!2d-75.59076768269031!3d6.228556029213493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429b898be26d3%3A0x18c04d668e86fdf!2sColiseo%20Carlos%20Mauro%20Hoyos!5e0!3m2!1ses!2sco!4v1606962023983!5m2!1ses!2sco"
-      allowfullscreen: "" ; aria-hidden: false; tabindex: 0; style: 0;></iframe>
+      allowfullscreen:""; aria-hidden:false; tabindex:0; style:0; alt="mapa_google"></iframe>
 
     <p>Cra. 70 #164, Medellín, Antioquia <i class="fas fa-map-marker"></i></p>
   </div>
@@ -160,49 +170,61 @@
         <li>
           <div class="contenido_lineat">
             <h3 class="fecha_ct"> 2025</h3>
-            <h2>Nuestra meta como compañia de contenido</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus
-              aut eos placeat laborum, quibusdam exercitationem labore.</p>
+            <h2>Nuestra meta como compañía de contenido</h2>
+            <p>Nuestra estrategia o meta es incrementar el consumo de videos global y el ingreso general para la
+              industria audiovisual, al generar la mejor experiencia para el usuario y un motor de búsqueda de eventos
+              deportivos para millones de fans globales</p>
           </div>
         </li>
         <li>
           <div class="contenido_lineat">
             <h3 class="fecha_ct"> 2024</h3>
             <h2>Futuros y metas</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus
-              aut eos placeat laborum, quibusdam exercitationem labore.</p>
+            <p>Nuestra mayor y mas simple meta es satisfacer las necesidades de nuestros usuarios y brindar la mas
+              grande comunidad de amantes del pugilismo,con tu ayuda lo lograremos !Vamos Knockers¡</p>
           </div>
         </li>
         <li>
           <div class="contenido_lineat">
             <h3 class="fecha_ct"> 2023</h3>
             <h2>Retos previstos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus
-              aut eos placeat laborum, quibusdam exercitationem labore.</p>
+            <p>Debido a la pandemia que está causando estragos en todo el mundo y agotando los sistemas de salud pública
+              muchos sectores se han detenido por completo y retomado meses después entre ellos el deporte, Ocasionando
+              acciones sin precedentes por parte de los gobiernos de todo el mundo, incluidas restricciones de
+              movimiento y órdenes de contención.Aún con estos inconvenientes nuestro propósito como empresa es
+              otorgarte la mayor calidad posible de entretenimiento y que pasemos juntos esta crisis actual aqui en ABK.
+            </p>
           </div>
         </li>
         <li>
           <div class="contenido_lineat">
             <h3 class="fecha_ct">2022</h3>
-            <h2>De la imaginacion a la realidad</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus
-              aut eos placeat laborum, quibusdam exercitationem labore.</p>
+            <h2>De la imaginación a la realidad</h2>
+            <p>En nuestros inicios ABK se fundó como un simple estudio con pocos desarrolladores,colaboradores un
+              publico muy limitado, con servidores sobresaturados y una lista de agencias y organizaciones casi
+              inexistente;Sin embargo actualmente logramos un 89% de aumento en la productividad y crecimiento hasta
+              convertirnos en la empresa que somos hoy en dia y asi traerte todo tu contenido en tu pantalla favorita,
+              ya sea tu TV, tableta, computadora, teléfono y otros. Vive una experiencia única con una amplia selección
+              de eventos en FullHD. </p>
           </div>
         </li>
         <li>
           <div class="contenido_lineat">
             <h3 class="fecha_ct"> 2021</h3>
             <h2>Los inicios de <span class="letras_rojas">ABK<span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus
-              aut eos placeat laborum, quibusdam exercitationem labore.</p>
+            <p>AbigKnockout nace como una iniciativa para atraer al publico uno de los mas antiguos y famosos de los
+              deporte;El boxeo y asi brindarle al publico la mas alta calidad de contenido audiovisual aun bajo costo y
+              con acceso aun amplio catalogó que cada vez aumenta aun mas.</p>
           </div>
         </li>
         <li>
           <div class="contenido_lineat">
             <h3 class="fecha_ct">2020</h3>
             <h2>Plasmando un sueño</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus
-              aut eos placeat laborum, quibusdam exercitationem labore.</p>
+            <p>El creador Christopher Henry Arias A. fundador y CEO de AbigKnockout's oriundo de Venezuela,Margarita y
+              residenciado en Colombia,Medellin; Crea en el 2020 la que seria la plataforma digital de eventos
+              boxisticos mas grande de contenido digital contando con la aprobación de mas de 8 instituciones oficiales
+              del boxeo y el ministerio del deporte(MinDeporte).</p>
           </div>
         </li>
       </ul>
@@ -214,38 +236,47 @@
 
       <div id="nuestros-convenios" class="footer-informacion">
         <h3>Sobre <span class="letras_rojas">ABK</span></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis
-          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel
-              perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-          <div><a href='https://www.freepik.es/vectors/internet'>Vector de Internet creado por vectorjuice -
+        <p>AbigKnockout es una compañía de entretenimiento en vivo fundada en 2020 con sede en Medellin,Colombia. Del
+          mismo modo que el boxeo fue creado como un espectáculo para entretener que luego evoluciono en uno de los
+          deportes mas antiguos, AbigKnockout fue creado para entretener a las masas de admiradores que aman este
+          deporte. Basados en el concepto de "Live Streaming", los eventos son desarrollados para ser impactantes al
+          observador y tienen un énfasis en la comodidad y disfrute. "El boxeo es una manera simple de disfrutar el
+          deporte y todos sus derivados".
+          <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" target="_blank" rel="noreferrer"
+              title="Pixel perfect">Pixel
+              perfect</a> from <a href="https://www.flaticon.com/" target="_blank" rel="noreferrer"
+              title="Flaticon">www.flaticon.com</a></div>
+          <div><a href='https://www.freepik.es/vectors/internet' target="_blank" rel="noreferrer">Vector de Internet
+              creado por vectorjuice -
               www.freepik.es</a></div>
+          <div>Pagina creada por Christopher Arias <a href="https://github.com/devchrisar" target="_blank"
+              rel="noreferrer" title="developer">DevChrisar</a> de <a href="https://www.github.com/" target="_blank"
+              rel="noreferrer" title="github">www.github.com</a>
+          </div>
         </p>
       </div>
 
       <div class="ultimos ko">
-        <h3>ultimos <span class="letras_rojas">K.O</span></h3>
+        <h3>últimos <span class="letras_rojas">K.O</span></h3>
         <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.</li>
+          <li>Austin Trout[GANADOR 10 round] vs Juan Armando Garcia</li>
+          <li>Bermane Stiverne[GANADOR 11 round] vs Trevor Bryan</li>
+          <li>Hafthor ‘The Mountain’ Bjornsson vs Steven Ward [EMPATE 3 round]</li>
+          <li>Caleb Plant[GANADOR 12 round] vs Caleb Truax</li>
+          <li>Rances Barthelemy[GANADOR 10 round] vs Al Rivera </li>
+          <li>Michael Polite Coffie[GANADOR 3 round] vs Darmani Rock</li>
+          <li>Joey Spencer[GANADOR 1 round] vs Isiah Seldon </li>
         </ul>
       </div>
 
       <div class="menu">
         <h3>Redes <span class="letras_rojas">sociales</span></h3>
         <nav class="redes-sociales">
-          <a href="https://www.facebook.com/" target=" _blank"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://twitter.com/" target=" _blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://pinterest.com/" target=" _blank"><i class="fab fa-pinterest-p"></i></a>
-          <a href="https://www.youtube.com/" target=" _blank"><i class="fab fa-youtube"></i></a>
-          <a href="https://www.instagram.com/" target=" _blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/" target=" _blank" alt="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/" target=" _blank" alt="twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://pinterest.com/" target=" _blank" alt="pinterest"><i class="fab fa-pinterest-p"></i></a>
+          <a href="https://www.youtube.com/" target=" _blank" alt="youtube"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/" target=" _blank" alt="instagram"><i class="fab fa-instagram"></i></a>
         </nav>
       </div>
     </div>

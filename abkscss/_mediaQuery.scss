@@ -18,6 +18,9 @@
   .barraroja dd {
     padding: 30px;
   }
+  body h2 {
+    padding: 20px;
+  }
 
   #bodymo {
     display: flex;
@@ -208,6 +211,10 @@
     color: #ff0096;
     text-transform: uppercase;
   }
+
+  .descripcion_evento {
+    word-wrap: break-word;
+  }
   /*----------------proximos eventos fin-------------*/
 
   /*----------------noticias-------------*/
@@ -317,6 +324,9 @@
   body p,
   .barraroja dd {
     padding: 30px;
+  }
+  body h2 {
+    padding: 20px;
   }
 
   #bodymo {
@@ -488,6 +498,10 @@
   .eventos .eventos_izquierda .eventos_fecha {
     padding: 10px 0;
   }
+
+  .descripcion_evento {
+    word-wrap: break-word;
+  }
   /*----------------proximos eventos fin-------------*/
 
   /*----------------noticias-------------*/
@@ -582,6 +596,9 @@
   body p,
   .barraroja dd {
     padding: 30px;
+  }
+  body h2 {
+    padding: 20px;
   }
 
   #bodymo {
@@ -800,6 +817,10 @@
   .contenedor_mapa iframe {
     width: 100vw;
   }
+  .contenedor_acerca {
+    width: 100vw;
+    margin: 50px auto;
+  }
   /*----------------acerca noso fin-------------*/
 }
 /*
@@ -817,6 +838,14 @@
 
   body.os-host > .os-padding > .os-viewport > .os-content {
     height: auto !important;
+  }
+
+  body p,
+  .barraroja dd {
+    padding: 25px;
+  }
+  body h2 {
+    padding: 20px;
   }
 
   .nav-lista {
@@ -844,7 +873,7 @@
   }
 
   nav.redes-sociales .fab {
-    color: rgba(199, 0, 139, 0.6);
+    color: rgb(255, 255, 255);
     transition: 3s;
     padding: 0 5px;
     user-select: none;
@@ -1005,6 +1034,14 @@
     height: auto !important;
   }
 
+  body p,
+  .barraroja dd {
+    padding: 30px;
+  }
+  body h2 {
+    padding: 22px;
+  }
+
   .nav-lista {
     list-style: none;
     display: grid;
@@ -1026,7 +1063,7 @@
   }
 
   nav.redes-sociales .fab {
-    color: rgba(199, 0, 139, 0.6);
+    color: rgb(255, 255, 255);
     transition: 3s;
     padding: 0 5px;
     user-select: none;
@@ -1150,6 +1187,14 @@
     height: auto !important;
   }
 
+  body p,
+  .barraroja dd {
+    padding: 10px;
+  }
+  body h2 {
+    padding: 20px;
+  }
+
   .nav-lista {
     list-style: none;
     display: grid;
@@ -1171,7 +1216,7 @@
   }
 
   nav.redes-sociales .fab {
-    color: rgba(199, 0, 139, 0.6);
+    color: rgb(255, 255, 255);
     transition: 3s;
     padding: 0 5px;
     user-select: none;
@@ -1289,6 +1334,14 @@
     height: auto !important;
   }
 
+  body p,
+  .barraroja dd {
+    padding: 5px;
+  }
+  body h2 {
+    padding: 20px;
+  }
+
   .nav-lista {
     list-style: none;
     display: grid;
@@ -1310,7 +1363,7 @@
   }
 
   nav.redes-sociales .fab {
-    color: rgba(199, 0, 139, 0.6);
+    color: rgb(255, 255, 255);
     transition: 3s;
     padding: 0 5px;
     user-select: none;

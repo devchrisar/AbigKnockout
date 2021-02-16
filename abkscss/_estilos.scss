@@ -367,8 +367,11 @@
 
 /*titulares*/
 
-.vinculo_titu {
-  color: #fcb5b5;
+.vinculo_titu,
+.vinculo_titu-p {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
   text-decoration: none;
 }
 
@@ -404,6 +407,9 @@
   box-sizing: border-box;
 
   .contenidocentral_grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: #fff;
     border-radius: 20px;
     overflow: hidden;
@@ -822,7 +828,7 @@ div.contador {
   height: auto;
 
   &::before {
-    background-image: url(../img/paralelo.jpg);
+    background-image: url(../img/paralelo.webp);
     content: "";
   }
 }
@@ -1053,6 +1059,7 @@ textarea {
     font-size: 16px;
     line-height: 30px;
     font-weight: 300;
+    word-wrap: break-word;
   }
 
   .fecha_ct {
@@ -1065,7 +1072,15 @@ textarea {
 
 /*LINEA DE TIEMPO*/
 /*noticias*/
-
+.contenido--noticias h1 {
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 5px;
+  text-align: center;
+}
+.news_titu {
+  font-size: 34px;
+}
 .relacionados {
   display: flex;
   flex-wrap: wrap;
