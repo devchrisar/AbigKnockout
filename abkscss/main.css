@@ -1187,11 +1187,18 @@ textarea {
   color: #ffffff;
 }
 
-.contenedor_mapa iframe {
-  width: 1530px;
+.contenedor_mapa #mapa {
+  z-index: 1;
+  width: 100vw;
   height: 400px;
   border: 0;
   border: 0;
+}
+
+.contenedor_mapa .leaflet-control-attribution,
+.contenedor_mapa .leaflet-control a {
+  color: #ff00ff;
+  background-color: #000000;
 }
 
 /*MAPA*/
@@ -1682,9 +1689,6 @@ footer p.copyright {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .contenedor_mapa iframe {
-    width: 100vw;
-  }
   /*----------------acerca noso fin-------------*/
 }
 
@@ -1974,9 +1978,6 @@ footer p.copyright {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .contenedor_mapa iframe {
-    width: 100vw;
-  }
   /*----------------acerca noso fin-------------*/
 }
 
@@ -2237,9 +2238,6 @@ footer p.copyright {
   }
   /*----------------stream fin-------------*/
   /*----------------acerca noso-------------*/
-  .contenedor_mapa iframe {
-    width: 100vw;
-  }
   .contenedor_acerca {
     width: 100vw;
     margin: 50px auto;
@@ -2383,9 +2381,6 @@ footer p.copyright {
   }
   /*----------------stream fin-------------*/
   /*----------------acerca noso-------------*/
-  .contenedor_mapa iframe {
-    width: 100vw;
-  }
   .lineatiempo:before {
     content: "";
     position: absolute;
@@ -2534,9 +2529,6 @@ footer p.copyright {
   }
   /*----------------stream fin-------------*/
   /*----------------acerca noso-------------*/
-  .contenedor_mapa iframe {
-    width: 100vw;
-  }
   .lineatiempo:before {
     content: "";
     position: absolute;
@@ -2682,9 +2674,6 @@ footer p.copyright {
   }
   /*----------------stream fin-------------*/
   /*----------------acerca noso-------------*/
-  .contenedor_mapa iframe {
-    width: 100vw;
-  }
   .lineatiempo:before {
     content: "";
     position: absolute;
@@ -2834,9 +2823,6 @@ footer p.copyright {
   }
   /*----------------stream fin-------------*/
   /*----------------acerca noso-------------*/
-  .contenedor_mapa iframe {
-    width: 100vw;
-  }
   .lineatiempo:before {
     content: "";
     position: absolute;
