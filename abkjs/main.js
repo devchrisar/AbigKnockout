@@ -42,3 +42,24 @@ $(function() {
     
     
 });
+
+
+//**Contador*/
+$('.numero').each(function() {
+
+    $(this).prop('counter', 0).animate({
+  
+      counter: $(this).text()
+  
+    }, {
+  
+      duration: 8000,
+  
+      easing: 'swing',
+  
+      step: function(now) {
+  
+        $(this).text(Math.ceil(now));
+      }
+    });
+  });

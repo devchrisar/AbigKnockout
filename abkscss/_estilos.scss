@@ -1001,11 +1001,17 @@ textarea {
     color: #ffffff;
   }
 
-  iframe {
-    width: 1530px;
+  #mapa {
+    z-index: 1;
+    width: 100vw;
     height: 400px;
     border: 0;
     border: 0;
+  }
+  .leaflet-control-attribution,
+  .leaflet-control a {
+    color: #ff00ff;
+    background-color: #000000;
   }
 }
 

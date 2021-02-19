@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <meta name="description" content="informate sobre nuestras lineas de contacto">
   <meta name="keywords" content="CONTACTO,DIRECCIÓN,LOCALIDAD,INFORMACIÓN">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -23,6 +23,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Amiko&family=Bebas+Neue&family=Oswald&family=Poppins&family=Rasa&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.maptiler.com/mapbox-gl-js/v1.5.1/mapbox-gl.css">
   <link rel="stylesheet" href="abkcss/OverlayScrollbars.min.css">
   <link rel="stylesheet" href="abkcss/estilos.css">
   <link rel="stylesheet" href="abkscss/main.css">
@@ -157,10 +161,7 @@
   </main>
 
   <div class="contenedor_mapa">
-    <iframe title="mapa: lugar de la empresa"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2764.3653418181984!2d-75.59076768269031!3d6.228556029213493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429b898be26d3%3A0x18c04d668e86fdf!2sColiseo%20Carlos%20Mauro%20Hoyos!5e0!3m2!1ses!2sco!4v1606962023983!5m2!1ses!2sco"
-      allowfullscreen:""; aria-hidden:false; tabindex:0; style:0; alt="mapa_google"></iframe>
-
+    <div id="mapa" class="mapa_leaf"></div>
     <p>Cra. 70 #164, Medellín, Antioquia <i class="fas fa-map-marker"></i></p>
   </div>
 
@@ -292,8 +293,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
     integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.maptiler.com/mapbox-gl-js/v1.5.1/mapbox-gl.js"></script>
+  <script src="https://cdn.maptiler.com/mapbox-gl-leaflet/latest/leaflet-mapbox-gl.js"></script>
   <script src="abkjs/jquery.overlayScrollbars.min.js"></script>
   <script src="abkjs/main.js"></script>
+  <script src="abkjs/mapa.js"></script>
 
 </body>
 
